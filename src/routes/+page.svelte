@@ -11,6 +11,17 @@
     <p>
       {blog_post.rich_text}
     </p>
+    <h2>Summary</h2>
+      <p>
+        {blog_post.Summary}
+      </p>
   </div>
-
+  <div>
+    <h2>
+      Tags: 
+    </h2>
+    <p>
+      {blog_post.blog_tags}
+    </p>
+  </div>
 {/each}
